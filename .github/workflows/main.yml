@@ -28,5 +28,5 @@ jobs:
       with:
         server: 85.209.148.74
         username: ${{ secrets.FTP_LOGIN }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        password: ${{ secrets.FTP_PASS }}
         server-dir: /
